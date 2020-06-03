@@ -10,10 +10,10 @@ const router = express.Router();
 
 const schema = {
     resources: joi
-        .string()
+        .any()
         .required(),
     points: joi
-        .number()
+        .any()
         .required()
 };
 

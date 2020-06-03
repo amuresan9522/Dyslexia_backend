@@ -7,7 +7,7 @@ const UserQuizActivitySchema = new Schema({
         type: String
     },
     resources: {
-        type: String
+        type: mongoose.SchemaTypes.Mixed
     },
     userId: {
         type: Schema.Types.ObjectId,

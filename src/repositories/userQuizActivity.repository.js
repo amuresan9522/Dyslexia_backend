@@ -1,5 +1,5 @@
 import UserQuizActivity from '../models/userQuizActivity';
-import { NotFoundError } from '../error';
+import { InternalServerError } from '../error';
 
 export const getUserActivities = (userId) => {
     return UserQuizActivity.find({ userId })
